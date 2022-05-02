@@ -7,25 +7,37 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C63A4008F9CB73E62396CB9F /* Pods_MoodLoggingApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 249350DF220E36A1CDFB265C /* Pods_MoodLoggingApp.framework */; };
+		FB2959BC28165A4200A8158E /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = FB2959BB28165A4200A8158E /* GoogleService-Info.plist */; };
+		FB2959BE281669B200A8158E /* HomeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB2959BD281669B200A8158E /* HomeController.swift */; };
+		FB2959C028167AA800A8158E /* LandingController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB2959BF28167AA800A8158E /* LandingController.swift */; };
 		FB32893D28129B5500977A28 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB32893C28129B5500977A28 /* AppDelegate.swift */; };
 		FB32893F28129B5500977A28 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB32893E28129B5500977A28 /* SceneDelegate.swift */; };
-		FB32894128129B5500977A28 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB32894028129B5500977A28 /* ViewController.swift */; };
+		FB32894128129B5500977A28 /* LoginController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB32894028129B5500977A28 /* LoginController.swift */; };
 		FB32894428129B5500977A28 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB32894228129B5500977A28 /* Main.storyboard */; };
 		FB32894728129B5500977A28 /* MoodLoggingApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = FB32894528129B5500977A28 /* MoodLoggingApp.xcdatamodeld */; };
 		FB32894928129B6200977A28 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FB32894828129B6200977A28 /* Assets.xcassets */; };
 		FB32894C28129B6200977A28 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB32894A28129B6200977A28 /* LaunchScreen.storyboard */; };
+		FB328956281654CA00977A28 /* RegistrationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB328955281654CA00977A28 /* RegistrationController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1257CE72DE7C4937DA513BFC /* Pods-MoodLoggingApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MoodLoggingApp.release.xcconfig"; path = "Target Support Files/Pods-MoodLoggingApp/Pods-MoodLoggingApp.release.xcconfig"; sourceTree = "<group>"; };
+		249350DF220E36A1CDFB265C /* Pods_MoodLoggingApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MoodLoggingApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		398E585691D17A6B332FA81F /* Pods-MoodLoggingApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MoodLoggingApp.debug.xcconfig"; path = "Target Support Files/Pods-MoodLoggingApp/Pods-MoodLoggingApp.debug.xcconfig"; sourceTree = "<group>"; };
+		FB2959BB28165A4200A8158E /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		FB2959BD281669B200A8158E /* HomeController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = HomeController.swift; path = MoodLoggingApp/Controllers/HomeController.swift; sourceTree = SOURCE_ROOT; };
+		FB2959BF28167AA800A8158E /* LandingController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandingController.swift; sourceTree = "<group>"; };
 		FB32893928129B5500977A28 /* MoodLoggingApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MoodLoggingApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FB32893C28129B5500977A28 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FB32893E28129B5500977A28 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		FB32894028129B5500977A28 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FB32894028129B5500977A28 /* LoginController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginController.swift; sourceTree = "<group>"; };
 		FB32894328129B5500977A28 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		FB32894628129B5500977A28 /* MoodLoggingApp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MoodLoggingApp.xcdatamodel; sourceTree = "<group>"; };
 		FB32894828129B6200977A28 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FB32894B28129B6200977A28 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FB32894D28129B6200977A28 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FB328955281654CA00977A28 /* RegistrationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,17 +45,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C63A4008F9CB73E62396CB9F /* Pods_MoodLoggingApp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		55A6A1874C0169744845E5E6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				249350DF220E36A1CDFB265C /* Pods_MoodLoggingApp.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5D9045CF8E47ABD50561A986 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				398E585691D17A6B332FA81F /* Pods-MoodLoggingApp.debug.xcconfig */,
+				1257CE72DE7C4937DA513BFC /* Pods-MoodLoggingApp.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		FB32893028129B5500977A28 = {
 			isa = PBXGroup;
 			children = (
 				FB32893B28129B5500977A28 /* MoodLoggingApp */,
 				FB32893A28129B5500977A28 /* Products */,
+				5D9045CF8E47ABD50561A986 /* Pods */,
+				55A6A1874C0169744845E5E6 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -60,14 +92,34 @@
 			children = (
 				FB32893C28129B5500977A28 /* AppDelegate.swift */,
 				FB32893E28129B5500977A28 /* SceneDelegate.swift */,
-				FB32894028129B5500977A28 /* ViewController.swift */,
-				FB32894228129B5500977A28 /* Main.storyboard */,
+				FB32895428129BAD00977A28 /* Controllers */,
+				FB32895328129B9800977A28 /* Views */,
 				FB32894828129B6200977A28 /* Assets.xcassets */,
+				FB2959BB28165A4200A8158E /* GoogleService-Info.plist */,
 				FB32894A28129B6200977A28 /* LaunchScreen.storyboard */,
 				FB32894D28129B6200977A28 /* Info.plist */,
 				FB32894528129B5500977A28 /* MoodLoggingApp.xcdatamodeld */,
 			);
 			path = MoodLoggingApp;
+			sourceTree = "<group>";
+		};
+		FB32895328129B9800977A28 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				FB32894228129B5500977A28 /* Main.storyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		FB32895428129BAD00977A28 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				FB2959BF28167AA800A8158E /* LandingController.swift */,
+				FB32894028129B5500977A28 /* LoginController.swift */,
+				FB328955281654CA00977A28 /* RegistrationController.swift */,
+				FB2959BD281669B200A8158E /* HomeController.swift */,
+			);
+			path = Controllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -77,9 +129,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = FB32895028129B6200977A28 /* Build configuration list for PBXNativeTarget "MoodLoggingApp" */;
 			buildPhases = (
+				ECBD90F50359A66D8FA0DD43 /* [CP] Check Pods Manifest.lock */,
 				FB32893528129B5500977A28 /* Sources */,
 				FB32893628129B5500977A28 /* Frameworks */,
 				FB32893728129B5500977A28 /* Resources */,
+				8077958AA9C40B7F731BA6ED /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -129,6 +183,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FB32894C28129B6200977A28 /* LaunchScreen.storyboard in Resources */,
+				FB2959BC28165A4200A8158E /* GoogleService-Info.plist in Resources */,
 				FB32894928129B6200977A28 /* Assets.xcassets in Resources */,
 				FB32894428129B5500977A28 /* Main.storyboard in Resources */,
 			);
@@ -136,15 +191,60 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		8077958AA9C40B7F731BA6ED /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MoodLoggingApp/Pods-MoodLoggingApp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MoodLoggingApp/Pods-MoodLoggingApp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MoodLoggingApp/Pods-MoodLoggingApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		ECBD90F50359A66D8FA0DD43 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MoodLoggingApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		FB32893528129B5500977A28 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FB32894128129B5500977A28 /* ViewController.swift in Sources */,
+				FB32894128129B5500977A28 /* LoginController.swift in Sources */,
 				FB32893D28129B5500977A28 /* AppDelegate.swift in Sources */,
+				FB2959BE281669B200A8158E /* HomeController.swift in Sources */,
 				FB32894728129B5500977A28 /* MoodLoggingApp.xcdatamodeld in Sources */,
 				FB32893F28129B5500977A28 /* SceneDelegate.swift in Sources */,
+				FB328956281654CA00977A28 /* RegistrationController.swift in Sources */,
+				FB2959C028167AA800A8158E /* LandingController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -286,6 +386,7 @@
 		};
 		FB32895128129B6200977A28 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 398E585691D17A6B332FA81F /* Pods-MoodLoggingApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -294,6 +395,7 @@
 				DEVELOPMENT_TEAM = N75TFFUYJP;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = MoodLoggingApp/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Mood Logger";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -304,7 +406,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.pushparaj.moodlogging.MoodLoggingApp;
+				PRODUCT_BUNDLE_IDENTIFIER = com.pushparaj.moodtracker;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -314,6 +416,7 @@
 		};
 		FB32895228129B6200977A28 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1257CE72DE7C4937DA513BFC /* Pods-MoodLoggingApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -322,6 +425,7 @@
 				DEVELOPMENT_TEAM = N75TFFUYJP;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = MoodLoggingApp/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Mood Logger";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -332,7 +436,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.pushparaj.moodlogging.MoodLoggingApp;
+				PRODUCT_BUNDLE_IDENTIFIER = com.pushparaj.moodtracker;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
